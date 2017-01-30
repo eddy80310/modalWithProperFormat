@@ -16,7 +16,6 @@ var app_routing_module_1 = require('./app-routing.module');
 var core_module_1 = require('./core/core.module');
 // Component
 var app_component_1 = require('./app.component');
-var navbar_component_1 = require('./navbar/navbar.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -29,8 +28,7 @@ var AppModule = (function () {
                 core_module_1.CoreModule.forRoot()
             ],
             declarations: [
-                app_component_1.AppComponent,
-                navbar_component_1.NavbarComponent
+                app_component_1.AppComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

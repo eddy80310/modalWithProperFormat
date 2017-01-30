@@ -17,7 +17,6 @@ var forms_1 = require('@angular/forms');
 var bug_list_component_1 = require('./bug-list/bug-list.component');
 var bug_detail_component_1 = require('./bug-detail/bug-detail.component');
 // Service
-var bug_service_1 = require('./service/bug.service');
 var BugModule = (function () {
     function BugModule() {
     }
@@ -33,9 +32,7 @@ var BugModule = (function () {
                 bug_detail_component_1.BugDetailComponent
             ],
             exports: [],
-            providers: [
-                bug_service_1.BugService
-            ]
+            providers: []
         }), 
         __metadata('design:paramtypes', [])
     ], BugModule);
